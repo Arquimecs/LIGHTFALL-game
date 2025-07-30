@@ -6,4 +6,6 @@ realm = "shared"
 
 [dependencies]
 React = "jsdotlua/react@17.2.1"
-satchel = "ryanlua/satchel@1.2.0"
+Satchel = "ryanlua/satchel@1.2.0"
+
+[server-dependencies]
