@@ -1,11 +1,9 @@
 [package]
-name = "bruno/lightfall"
+name = "bruno/lightfall-game"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
 React = "jsdotlua/react@17.2.1"
-promise = "evaera/promise@4.0.0"
-
-[server-dependencies]
+satchel = "ryanlua/satchel@1.2.0"

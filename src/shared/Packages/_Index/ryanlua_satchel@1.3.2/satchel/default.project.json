@@ -1,0 +1,10 @@
+{
+  "name": "satchel",
+  "servePort": 34872,
+  "tree": {
+    "$path": "src",
+    "Packages": {
+      "$path": "Packages"
+    }
+  }
+}
