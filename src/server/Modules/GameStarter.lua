@@ -5,15 +5,11 @@ local Remotes = ReplicatedStorage.Remotes
 local Server = ServerScriptService.Server
 
 local Modules = Server.Modules
-local Components = Modules.Components
 
+local DayCycleHandler = require(Modules.DayCycleHandler)
 
 local GameStarter = {}
 
-
-
-function GameStarter:Initialize()
-
-end
+function GameStarter:Initialize() end
 
 return GameStarter

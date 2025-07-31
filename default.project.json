@@ -1,0 +1,29 @@
+{
+  "name": "LIGHTFALL",
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared",
+
+        "Packages": {
+          "$path": "Packages"
+        }
+      },
+      "Client": {
+        "$path": "src/client"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      },
+      "Packages": {
+        "$path": "ServerPackages"
+      }
+    }
+  }
+}
